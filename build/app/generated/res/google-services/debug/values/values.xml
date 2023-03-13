@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">542593105996-7orjv8460v8hq9kirrvvrh5j60417fpc.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">542593105996</string>
+    <string name="google_api_key" translatable="false">AIzaSyBTlkiXURxCxspaVOZ2GOGTHSeDcfgb5g8</string>
+    <string name="google_app_id" translatable="false">1:542593105996:android:194dad04a7686b7e4434e9</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBTlkiXURxCxspaVOZ2GOGTHSeDcfgb5g8</string>
+    <string name="google_storage_bucket" translatable="false">barberbooking-a5feb.appspot.com</string>
+    <string name="project_id" translatable="false">barberbooking-a5feb</string>
+</resources>
