@@ -281,7 +281,7 @@ class _BookingListScreenState extends State<BookingListScreen> {
                                   actions: [
                                     TextButton(
                                       onPressed: () {
-                                        bookingService.tambahData(context);
+                                        bookingService.plusData(context);
                                       },
                                       child: const Text('Yes'),
                                     ),

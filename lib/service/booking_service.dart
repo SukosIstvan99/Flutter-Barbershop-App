@@ -14,7 +14,7 @@ class BookingService {
   // TextEditingController dateOrder = TextEditingController();
   // TextEditingController timeOrder = TextEditingController();
 
-  void tambahData(context) async {
+  void plusData(context) async {
     CollectionReference booking = firestore.collection("booking");
     BookingProvider bookingProvider =
         Provider.of<BookingProvider>(context, listen: false);
@@ -24,7 +24,7 @@ class BookingService {
       'name Customer': bookingProvider.nameCustomer.text,
       'no Order': bookingProvider.noOrder.text,
       'date': bookingProvider.dateOrder.text,
-      'hourse': bookingProvider.hoursOrder.text,
+      'hours': bookingProvider.hoursOrder.text,
       'message Order': bookingProvider.messageOrder.text,
     });
     showTextMessage(context, 'Booking succesful');
@@ -81,7 +81,7 @@ class BookingService {
     );
   }
 
-  void hapusData(String id) {
+  void wipeData(String id) {
     DocumentReference docRef = firestore.collection("booking").doc(id);
     docRef.delete();
   }

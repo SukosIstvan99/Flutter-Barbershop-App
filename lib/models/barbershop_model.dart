@@ -1,7 +1,6 @@
 class BarbershopModel {
   final String name;
   final String image1;
-
   final String city;
 
   BarbershopModel({

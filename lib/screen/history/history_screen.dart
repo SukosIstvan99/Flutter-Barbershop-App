@@ -63,7 +63,7 @@ class HistoryScreen extends StatelessWidget {
                               );
                             },
                             () {
-                              bookingService.hapusData(data[index].id);
+                              bookingService.wipeData(data[index].id);
                             },
                           );
                         },

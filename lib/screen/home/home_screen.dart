@@ -48,7 +48,7 @@ class HomeScreen extends StatelessWidget {
                   height: 20,
                 ),
                 Text(
-                  'Recommendation',
+                  'Recommend ',
                   style: blackTextStyle.copyWith(
                     fontSize: 16,
                     fontWeight: regular,

@@ -28,12 +28,14 @@ class ListCard extends StatelessWidget {
               ),
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(18),
-                image: const DecorationImage(
+                image: DecorationImage(
                   fit: BoxFit.cover,
-                  image: AssetImage("assets/logo2.png"),
+                  image: NetworkImage(
+                    barbershopModel.image1,
                   ),
                 ),
               ),
+            ),
             
             Expanded(
               child: Column(

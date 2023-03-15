@@ -275,7 +275,7 @@ class BookingRecommendScreen extends StatelessWidget {
                                   actions: [
                                     TextButton(
                                       onPressed: () {
-                                        bookingService.tambahData(context);
+                                        bookingService.plusData(context);
                                       },
                                       child: const Text('Yes'),
                                     ),

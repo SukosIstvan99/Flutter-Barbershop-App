@@ -32,9 +32,11 @@ class RecommendationCard extends StatelessWidget {
               margin: const EdgeInsets.only(bottom: 8),
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(18),
-                image: const DecorationImage(
-                  image: AssetImage("assets/logo2.png"),
+                image: DecorationImage(
                   fit: BoxFit.cover,
+                  image: NetworkImage(
+                    barbershopModel.image1,
+                  ),
                 ),
               ),
             ),
