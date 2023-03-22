@@ -17,7 +17,10 @@ import 'package:flutter/foundation.dart'
 class DefaultFirebaseOptions {
   static FirebaseOptions get currentPlatform {
     if (kIsWeb) {
-      return web;
+      throw UnsupportedError(
+        'DefaultFirebaseOptions have not been configured for web - '
+        'you can reconfigure this by running the FlutterFire CLI again.',
+      );
     }
     switch (defaultTargetPlatform) {
       case TargetPlatform.android:
@@ -25,7 +28,10 @@ class DefaultFirebaseOptions {
       case TargetPlatform.iOS:
         return ios;
       case TargetPlatform.macOS:
-        return macos;
+        throw UnsupportedError(
+          'DefaultFirebaseOptions have not been configured for macos - '
+          'you can reconfigure this by running the FlutterFire CLI again.',
+        );
       case TargetPlatform.windows:
         throw UnsupportedError(
           'DefaultFirebaseOptions have not been configured for windows - '
@@ -43,40 +49,20 @@ class DefaultFirebaseOptions {
     }
   }
 
-  static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyDCWT0mpBlOCNQu-7lJZxOpWzlPKIt9KCY',
-    appId: '1:542593105996:web:246a8169a8d290694434e9',
-    messagingSenderId: '542593105996',
-    projectId: 'barberbooking-a5feb',
-    authDomain: 'barberbooking-a5feb.firebaseapp.com',
-    storageBucket: 'barberbooking-a5feb.appspot.com',
-  );
-
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyBTlkiXURxCxspaVOZ2GOGTHSeDcfgb5g8',
-    appId: '1:542593105996:android:12b3b8421ebc33b74434e9',
+    apiKey: 'AIzaSyBML2sp1MteEkd-6CYppNqwr_3HSESxvZU',
+    appId: '1:542593105996:android:194dad04a7686b7e4434e9',
     messagingSenderId: '542593105996',
     projectId: 'barberbooking-a5feb',
     storageBucket: 'barberbooking-a5feb.appspot.com',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyApo0wDcyx0GoW3lkhlgsCY4PSL7M2CHlc',
-    appId: '1:542593105996:ios:02d646acf70ffd344434e9',
+    apiKey: 'AIzaSyC7tnVc2_exyz94KTDQWVe1ov891si9mN0',
+    appId: '1:542593105996:ios:cc17f205d77aac6d4434e9',
     messagingSenderId: '542593105996',
     projectId: 'barberbooking-a5feb',
     storageBucket: 'barberbooking-a5feb.appspot.com',
-    iosClientId: '542593105996-o9qv3pct1ap68fkvqimbrfvjs0bj09ke.apps.googleusercontent.com',
-    iosBundleId: 'com.example.barbershop',
-  );
-
-  static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: 'AIzaSyApo0wDcyx0GoW3lkhlgsCY4PSL7M2CHlc',
-    appId: '1:542593105996:ios:02d646acf70ffd344434e9',
-    messagingSenderId: '542593105996',
-    projectId: 'barberbooking-a5feb',
-    storageBucket: 'barberbooking-a5feb.appspot.com',
-    iosClientId: '542593105996-o9qv3pct1ap68fkvqimbrfvjs0bj09ke.apps.googleusercontent.com',
     iosBundleId: 'com.example.barbershop',
   );
 }

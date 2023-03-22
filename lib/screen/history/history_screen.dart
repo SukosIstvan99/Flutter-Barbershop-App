@@ -12,7 +12,8 @@ class HistoryScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     BookingService bookingService = BookingService();
-    return Scaffold(
+    return
+      Scaffold(
       body: SafeArea(
         child: Padding(
           padding: const EdgeInsets.symmetric(horizontal: 20),
@@ -45,7 +46,7 @@ class HistoryScreen extends StatelessWidget {
                               data[index].data() as Map<String, dynamic>;
                           return HistoryCard(
                             BookingModel(
-                              nameCustomer: dataBooking['customer name'],
+                              nameCustomer: dataBooking['name Customer'],
                               nameBarbershop: dataBooking['name barbershop'],
                               date: dataBooking['date'],
                               hours: dataBooking['hours'],

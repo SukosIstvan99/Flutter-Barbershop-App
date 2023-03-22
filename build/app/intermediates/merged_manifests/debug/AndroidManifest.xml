@@ -5,7 +5,7 @@
     android:versionName="1.0.0" >
 
     <uses-sdk
-        android:minSdkVersion="21"
+        android:minSdkVersion="20"
         android:targetSdkVersion="33" />
     <!--
          The INTERNET permission is required for development. Specifically,
@@ -39,6 +39,12 @@
     <uses-feature
         android:glEsVersion="0x00020000"
         android:required="true" />
+
+    <permission
+        android:name="com.example.barberbooking.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.example.barberbooking.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
 
     <application
         android:name="android.app.Application"
@@ -80,7 +86,7 @@
             android:value="2" />
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyC644kGm4knTPv3FQtqiKBKDigqm588kGI" />
+            android:value="AIzaSyB89RCvT9u9Wo2D3RO2a1NT0uUgXVsafBs" />
 
         <service
             android:name="com.google.firebase.components.ComponentDiscoveryService"
@@ -88,6 +94,9 @@
             android:exported="false" >
             <meta-data
                 android:name="com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:io.flutter.plugins.firebase.storage.FlutterFirebaseAppRegistrar"
                 android:value="com.google.firebase.components.ComponentRegistrar" />
             <meta-data
                 android:name="com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar"
@@ -100,6 +109,9 @@
                 android:value="com.google.firebase.components.ComponentRegistrar" />
             <meta-data
                 android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
                 android:value="com.google.firebase.components.ComponentRegistrar" />
         </service>
         <service

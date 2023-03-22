@@ -31,6 +31,7 @@ attr fontVariationSettings
 attr fontWeight
 attr imageAspectRatio
 attr imageAspectRatioAdjust
+attr lStar
 attr latLngBoundsNorthEastLatitude
 attr latLngBoundsNorthEastLongitude
 attr latLngBoundsSouthWestLatitude
@@ -230,6 +231,7 @@ id text
 id text2
 id time
 id title
+id view_tree_lifecycle_owner
 id wide
 integer google_play_services_version
 integer status_bar_notification_info_maxnum
@@ -263,7 +265,6 @@ string common_open_on_phone
 string common_signin_button_text
 string common_signin_button_text_long
 string copy_toast_msg
-string default_web_client_id
 string fallback_menu_item_copy_link
 string fallback_menu_item_open_in_browser
 string fallback_menu_item_share_link
@@ -286,7 +287,7 @@ style Widget_Compat_NotificationActionText
 styleable ActivityFilter activityAction activityName
 styleable ActivityRule alwaysExpand
 styleable Capability queryPatterns shortcutMatchRequired
-styleable ColorStateListItem android_color android_alpha alpha
+styleable ColorStateListItem android_color android_alpha android_lStar alpha lStar
 styleable FontFamily fontProviderAuthority fontProviderCerts fontProviderFetchStrategy fontProviderFetchTimeout fontProviderPackage fontProviderQuery fontProviderSystemFontFamily
 styleable FontFamilyFont android_font android_fontWeight android_fontStyle android_ttcIndex android_fontVariationSettings font fontStyle fontVariationSettings fontWeight ttcIndex
 styleable GradientColor android_startColor android_endColor android_type android_centerX android_centerY android_gradientRadius android_tileMode android_centerColor android_startX android_startY android_endX android_endY

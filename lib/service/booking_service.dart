@@ -27,7 +27,7 @@ class BookingService {
       'hours': bookingProvider.hoursOrder.text,
       'message Order': bookingProvider.messageOrder.text,
     });
-    showTextMessage(context, 'Booking succesful');
+    showTextMessage(context, 'Booking successful');
     bookingProvider.nameCustomer.clear();
     bookingProvider.noOrder.clear();
     bookingProvider.dateOrder.clear();

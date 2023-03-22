@@ -12,40 +12,15 @@
           "package_name": "com.example.barberbooking"
         }
       },
-      "oauth_client": [
-        {
-          "client_id": "542593105996-tfmjas02sfostpot37r8h9mh48iule30.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.example.barberbooking",
-            "certificate_hash": "8696848ccd3daa8bc0a30439dfdc23873e6b7aee"
-          }
-        },
-        {
-          "client_id": "542593105996-7orjv8460v8hq9kirrvvrh5j60417fpc.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
+      "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyBTlkiXURxCxspaVOZ2GOGTHSeDcfgb5g8"
+          "current_key": "AIzaSyBML2sp1MteEkd-6CYppNqwr_3HSESxvZU"
         }
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "542593105996-7orjv8460v8hq9kirrvvrh5j60417fpc.apps.googleusercontent.com",
-              "client_type": 3
-            },
-            {
-              "client_id": "542593105996-o9qv3pct1ap68fkvqimbrfvjs0bj09ke.apps.googleusercontent.com",
-              "client_type": 2,
-              "ios_info": {
-                "bundle_id": "com.example.barbershop"
-              }
-            }
-          ]
+          "other_platform_oauth_client": []
         }
       }
     }

@@ -4,7 +4,7 @@
             "outputFile": "C:\\Users\\Isti\\Desktop\\barbershop\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-kk\\values-kk.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Isti\\.gradle\\caches\\transforms-3\\27ed75583d8888cfd149af38bb71ea35\\transformed\\jetified-play-services-base-18.0.1\\res\\values-kk\\values.xml",
+                    "source": "C:\\Users\\Isti\\.gradle\\caches\\transforms-3\\0861465e27f550a84b471cca91b81f1b\\transformed\\jetified-play-services-base-18.1.0\\res\\values-kk\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -18,23 +18,6 @@
                         "startOffsets": "55,158,311,437,543,683,809,932,1205,1370,1476,1633,1762,1915,2072,2135,2194",
                         "endColumns": "102,152,125,105,139,125,122,108,164,105,156,128,152,156,62,58,77",
                         "endOffsets": "153,306,432,538,678,804,927,1036,1365,1471,1628,1757,1910,2067,2130,2189,2267"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Isti\\.gradle\\caches\\transforms-3\\dabcda68851483edc65f4d3af38ff3f1\\transformed\\core-1.6.0\\res\\values-kk\\values-kk.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "24",
-                        "startColumns": "4",
-                        "startOffsets": "2689",
-                        "endColumns": "100",
-                        "endOffsets": "2785"
                     }
                 },
                 {
@@ -69,6 +52,23 @@
                         "startOffsets": "2272,2372,2476,2584",
                         "endColumns": "99,103,107,104",
                         "endOffsets": "2367,2471,2579,2684"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Isti\\.gradle\\caches\\transforms-3\\50ac565c2d78ece85381646878fcb457\\transformed\\core-1.9.0\\res\\values-kk\\values-kk.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "24",
+                        "startColumns": "4",
+                        "startOffsets": "2689",
+                        "endColumns": "100",
+                        "endOffsets": "2785"
                     }
                 }
             ]

@@ -4,6 +4,23 @@
             "outputFile": "C:\\Users\\Isti\\Desktop\\barbershop\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-in\\values-in.xml",
             "map": [
                 {
+                    "source": "C:\\Users\\Isti\\.gradle\\caches\\transforms-3\\50ac565c2d78ece85381646878fcb457\\transformed\\core-1.9.0\\res\\values-in\\values-in.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "24",
+                        "startColumns": "4",
+                        "startOffsets": "2664",
+                        "endColumns": "100",
+                        "endOffsets": "2760"
+                    }
+                },
+                {
                     "source": "C:\\Users\\Isti\\.gradle\\caches\\transforms-3\\f9d00c0ad06f3737f5584e3a1be6cac9\\transformed\\browser-1.4.0\\res\\values-in\\values-in.xml",
                     "from": {
                         "startLines": "2,3,4,5",
@@ -18,23 +35,6 @@
                         "startOffsets": "2256,2356,2454,2563",
                         "endColumns": "99,97,108,100",
                         "endOffsets": "2351,2449,2558,2659"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Isti\\.gradle\\caches\\transforms-3\\dabcda68851483edc65f4d3af38ff3f1\\transformed\\core-1.6.0\\res\\values-in\\values-in.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "24",
-                        "startColumns": "4",
-                        "startOffsets": "2664",
-                        "endColumns": "100",
-                        "endOffsets": "2760"
                     }
                 },
                 {
@@ -55,7 +55,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Isti\\.gradle\\caches\\transforms-3\\27ed75583d8888cfd149af38bb71ea35\\transformed\\jetified-play-services-base-18.0.1\\res\\values-in\\values.xml",
+                    "source": "C:\\Users\\Isti\\.gradle\\caches\\transforms-3\\0861465e27f550a84b471cca91b81f1b\\transformed\\jetified-play-services-base-18.1.0\\res\\values-in\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
