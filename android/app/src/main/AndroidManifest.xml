@@ -2,6 +2,8 @@
     package="com.example.barbershop">
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS_FULL"/>
+
     <!-- Provide required visibility configuration for API level 30 and above -->
     <queries>
         <!-- If your app checks for SMS support -->
@@ -46,6 +48,6 @@
             android:name="flutterEmbedding"
             android:value="2" />
         <meta-data android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyB89RCvT9u9Wo2D3RO2a1NT0uUgXVsafBs"/>
+            android:value="AIzaSyDfHhHf3-bzVsYlGi4k-mnb-V-_aQYk-hA"/>
     </application>
 </manifest>
