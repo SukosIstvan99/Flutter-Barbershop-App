@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Isti\\Desktop\\barbershop\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sv\\values-sv.xml",
+            "outputFile": "C:\\Users\\Isti\\Desktop\\asd\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sv\\values-sv.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Isti\\.gradle\\caches\\transforms-3\\50ac565c2d78ece85381646878fcb457\\transformed\\core-1.9.0\\res\\values-sv\\values-sv.xml",

@@ -14,7 +14,8 @@
     -->
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" /> <!-- Provide required visibility configuration for API level 30 and above -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS_FULL" /> <!-- Provide required visibility configuration for API level 30 and above -->
     <queries>
 
         <!-- If your app checks for SMS support -->
@@ -86,7 +87,7 @@
             android:value="2" />
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyB89RCvT9u9Wo2D3RO2a1NT0uUgXVsafBs" />
+            android:value="AIzaSyDfHhHf3-bzVsYlGi4k-mnb-V-_aQYk-hA" />
 
         <service
             android:name="com.google.firebase.components.ComponentDiscoveryService"
@@ -167,17 +168,17 @@
                     android:path="/"
                     android:scheme="recaptcha" />
             </intent-filter>
-        </activity>
+        </activity> <!-- Needs to be explicitly declared on P+ -->
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
 
         <provider
             android:name="com.google.firebase.provider.FirebaseInitProvider"
             android:authorities="com.example.barberbooking.firebaseinitprovider"
             android:directBootAware="true"
             android:exported="false"
-            android:initOrder="100" /> <!-- Needs to be explicitly declared on P+ -->
-        <uses-library
-            android:name="org.apache.http.legacy"
-            android:required="false" />
+            android:initOrder="100" />
 
         <activity
             android:name="com.google.android.gms.common.api.GoogleApiActivity"

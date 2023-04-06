@@ -50,8 +50,8 @@ class HistoryScreen extends StatelessWidget {
                               nameBarbershop: dataBooking['name barbershop'],
                               date: dataBooking['date'],
                               hours: dataBooking['hours'],
-                              no: dataBooking['order no'],
-                              message: dataBooking['order message'],
+                              no: dataBooking['no Order'],
+                              message: dataBooking['message Order'],
                             ),
                             () {
                               Navigator.push(

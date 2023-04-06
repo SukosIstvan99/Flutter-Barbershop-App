@@ -1,6 +1,5 @@
 import 'package:barbershop/service/home_service.dart';
 import 'package:barbershop/screen/booking/booking_ list_screen.dart';
-
 import 'package:barbershop/utils/constants/theme.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
@@ -76,7 +75,7 @@ class DetailListScreen extends StatelessWidget {
                             height: 10,
                           ),
                           Text(
-                            data['information'],
+                            data['Information'],
                             style: greyTextStyle.copyWith(
                               fontSize: 14,
                               fontWeight: regular,

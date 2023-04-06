@@ -25,11 +25,11 @@ class EditBookingScreen extends StatelessWidget {
               if (snapshot.connectionState == ConnectionState.done) {
                 final data = snapshot.data!.data() as Map<String, dynamic>;
                 bookingProvider.nameBarbershop.text = data['name barbershop'];
-                bookingProvider.nameCustomer.text = data['name customer'];
-                bookingProvider.noOrder.text = data['no order'];
+                bookingProvider.nameCustomer.text = data['name Customer'];
+                bookingProvider.noOrder.text = data['no Order'];
                 bookingProvider.dateOrder.text = data['date'];
                 bookingProvider.hoursOrder.text = data['hours'];
-                bookingProvider.messageOrder.text = data['order message'];
+                bookingProvider.messageOrder.text = data['message Order'];
                 return Padding(
                   padding: const EdgeInsets.all(20),
                   child: Column(

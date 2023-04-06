@@ -65,6 +65,7 @@ class _LocationScreenState extends State<LocationScreen> {
                 ),
                 markers: {
                   captainMarker,
+                  masikMarker,
 
                 },
               );
@@ -86,9 +87,17 @@ class _LocationScreenState extends State<LocationScreen> {
 }
 
 Marker captainMarker = Marker(
-  markerId: const MarkerId('Captain Barbershop'),
-  position: const LatLng(-6.325526434549715, 106.78507708481317),
-  infoWindow: const InfoWindow(title: 'Captain Barbershop'),
+  markerId: const MarkerId('Adam Barber'),
+  position: const LatLng(46.431105, 24.842852),
+  infoWindow: const InfoWindow(title: 'Adam Barber'),
+  icon: BitmapDescriptor.defaultMarkerWithHue(
+    BitmapDescriptor.hueViolet,
+  ),
+);
+Marker masikMarker = Marker(
+  markerId: const MarkerId('Kovesdomb'),
+  position: const LatLng(46.431105, 24.842852),
+  infoWindow: const InfoWindow(title: 'Kovesdomb'),
   icon: BitmapDescriptor.defaultMarkerWithHue(
     BitmapDescriptor.hueViolet,
   ),

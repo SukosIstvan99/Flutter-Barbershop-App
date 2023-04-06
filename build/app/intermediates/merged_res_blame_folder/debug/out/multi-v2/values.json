@@ -1,8 +1,25 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Isti\\Desktop\\barbershop\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+            "outputFile": "C:\\Users\\Isti\\Desktop\\asd\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
             "map": [
+                {
+                    "source": "C:\\Users\\Isti\\Desktop\\asd\\build\\app\\generated\\res\\google-services\\debug\\values\\values.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "55,137,241,350,470,573",
+                        "endColumns": "81,103,108,119,102,79",
+                        "endOffsets": "132,236,345,465,568,648"
+                    },
+                    "to": {
+                        "startLines": "130,131,132,133,134,135",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "9231,9313,9417,9526,9646,9749",
+                        "endColumns": "81,103,108,119,102,79",
+                        "endOffsets": "9308,9412,9521,9641,9744,9824"
+                    }
+                },
                 {
                     "source": "C:\\Users\\Isti\\.gradle\\caches\\transforms-3\\0861465e27f550a84b471cca91b81f1b\\transformed\\jetified-play-services-base-18.1.0\\res\\values\\values.xml",
                     "from": {
@@ -95,42 +112,6 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Isti\\Desktop\\barbershop\\android\\app\\src\\main\\res\\values\\styles.xml",
-                    "from": {
-                        "startLines": "3,14",
-                        "startColumns": "4,4",
-                        "startOffsets": "173,818",
-                        "endLines": "7,16",
-                        "endColumns": "12,12",
-                        "endOffsets": "476,982"
-                    },
-                    "to": {
-                        "startLines": "137,142",
-                        "startColumns": "4,4",
-                        "startOffsets": "9900,10208",
-                        "endLines": "141,144",
-                        "endColumns": "12,12",
-                        "endOffsets": "10203,10372"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Isti\\Desktop\\barbershop\\build\\app\\generated\\res\\google-services\\debug\\values\\values.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7",
-                        "startColumns": "4,4,4,4,4,4",
-                        "startOffsets": "55,137,241,350,470,573",
-                        "endColumns": "81,103,108,119,102,79",
-                        "endOffsets": "132,236,345,465,568,648"
-                    },
-                    "to": {
-                        "startLines": "130,131,132,133,134,135",
-                        "startColumns": "4,4,4,4,4,4",
-                        "startOffsets": "9231,9313,9417,9526,9646,9749",
-                        "endColumns": "81,103,108,119,102,79",
-                        "endOffsets": "9308,9412,9521,9641,9744,9824"
-                    }
-                },
-                {
                     "source": "C:\\Users\\Isti\\.gradle\\caches\\transforms-3\\d8fc9cb6ca57b60ec842c4da120aa98b\\transformed\\jetified-play-services-maps-18.1.0\\res\\values\\values.xml",
                     "from": {
                         "startLines": "4",
@@ -164,6 +145,25 @@
                         "startOffsets": "661,719,785,848,1713,1784,8948,9016,9083,9162",
                         "endColumns": "57,65,62,61,70,71,67,66,78,68",
                         "endOffsets": "714,780,843,905,1779,1851,9011,9078,9157,9226"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Isti\\Desktop\\asd\\android\\app\\src\\main\\res\\values\\styles.xml",
+                    "from": {
+                        "startLines": "3,14",
+                        "startColumns": "4,4",
+                        "startOffsets": "176,832",
+                        "endLines": "7,16",
+                        "endColumns": "12,12",
+                        "endOffsets": "483,998"
+                    },
+                    "to": {
+                        "startLines": "137,142",
+                        "startColumns": "4,4",
+                        "startOffsets": "9900,10208",
+                        "endLines": "141,144",
+                        "endColumns": "12,12",
+                        "endOffsets": "10203,10372"
                     }
                 }
             ]

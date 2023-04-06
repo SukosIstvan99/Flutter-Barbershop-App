@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Isti\\Desktop\\barbershop\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ur\\values-ur.xml",
+            "outputFile": "C:\\Users\\Isti\\Desktop\\asd\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ur\\values-ur.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Isti\\.gradle\\caches\\transforms-3\\4c5cefc4bced38f73a0cc4404fde07b9\\transformed\\jetified-play-services-basement-18.1.0\\res\\values-ur\\values.xml",
